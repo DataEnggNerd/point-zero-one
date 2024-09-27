@@ -1,4 +1,4 @@
-### My mind palace :pushpin::open_file_folder:
+# My mind palace :pushpin::open_file_folder:
 
 The intention of this mind palace is to store things I learn and would want to share with the peers. A part of this will be my resume, where I describe the knowledge :bookmark_tabs: I acquired from the bugs :bug: I made and fixed in last 8+ years, along with the outcomes. 
 

@@ -35,6 +35,7 @@ theme:
 
 nav:
   - point-zero-one: index.md
+  - Random Notes: notes/index.md
 
 markdown_extensions:
   # Python Markdown

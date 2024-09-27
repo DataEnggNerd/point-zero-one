@@ -3,13 +3,14 @@
 
 Django is a batteries included framework for Web development in Python. There is no way you can make an API up and running with code less than 100 lines, like what you can achieve in `Flask` or `FastAPI`. 
 
-Apparently, not anymore. At DjangoCon US 2024, [Richard Terry](https://github.com/radiac) has presented his lightning talk on `NanoDjango`, which is the lighter version of Django. 
+Apparently, not anymore. At DjangoCon US 2024, [Richard Terry](https://github.com/radiac) has presented his lightning talk on [NanoDjango](https://github.com/radiac/nanodjango), which is the lighter version of Django. 
+
+
+## Sample code
 
 You can install NanoDjango with `pip install nanodjango`.
 
 And the code for creating a lightweight API looks something like this,
-
-## Sample code
 
 ```py title="counter.py"
 from django.db import models

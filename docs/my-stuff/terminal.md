@@ -9,13 +9,13 @@ Yes, ZSH is good. But fish attracted me with two very interesting and useful thi
 #### Feature one: Autocomplete :dizzy:
 The autocomplete feature of fish is the standard for other shells. Trust me, I was amazed to get to know the list of branches in my remote repository just by tapping the :arrow_right: key and this comes just out of the box. To achieve this somewhat similar, you need [zsh autocomplete](https://github.com/marlonrichert/zsh-autocomplete) as a plugin in zsh. Other shells, I really don't wanna know. 
 
-![autocomplete](/docs/assets/fish-autocomplete.png)
+![autocomplete](../assets/fish-autocomplete.png)
 
 #### Feature two: Browser based configuration
 I hate to do shell coding and needing to add more and more lines to my [`.zshrc`](https://stackoverflow.com/a/46341026/3488550) file and bloating it up. With adding themes and configurations my `.zshrc` file bloated up so much, I had to reset twice overall. 
 Fish handles configuration in a very intuitive way. Type `fish_config`, and press :leftwards_arrow_with_hook: (Enter). Voila :tada:, a nice browser window pop's up which contains A to Z of your fish shell configuration. 
   
-![screenshot](/docs/assets/fish-config.png "Browser configuration for fish shell")
+![screenshot](../assets/fish-config.png "Browser configuration for fish shell")
 
 #### Beyond the features!
 The developers of Fish shell inspired me beyond their tool, through their [design principles](https://fishshell.com/docs/current/design.html). A must read for every software developer, to understand the amount of thought process needed to develop a good piece of software. 
@@ -33,9 +33,9 @@ A rust based prompt for any shell, be it zsh, bash, xonsh anything. I stumbled o
 
 #### Feature one: ease of configuraion
 Starship is written in Rust :crab: and it works based on `toml` based configuration. I would have stopped exploring if it was shell configuration. Startship is not only for developers, but for everyone in my opinion. 
-I have attached my configuration [here](my-startship-config.toml) for reference. This makes my prompt look something like this,
+I have attached my configuration [here](my-starship-config.toml) for reference. This makes my prompt look something like this,
 
-![prompt](/docs/assets/starship-prompt.png)
+![prompt](../assets/starship-prompt.png)
 
 Nice, init :dizzy:!  
 

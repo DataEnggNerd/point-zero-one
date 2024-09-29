@@ -1,0 +1,42 @@
+# Move the directory to the second line
+#format = '$all$directory$character'
+command_timeout = 1000
+
+[python]
+format = 'via [${pyenv_prefix}(\($virtualenv\) )${symbol}(${version} )]($style)'
+style = 'bold green'
+
+[git_branch]
+symbol = '🪵 '
+style = 'green'
+
+[git_status]
+conflicted = "⚔️ "
+ahead = "🏎️ 💨 ×${count} "
+behind = "🐢 ×${count} "
+diverged = "🔱 🏎️ 💨 ×${ahead_count} 🐢 ×${behind_count} "
+untracked = "🛤️  ×${count} "
+stashed = "📦 "
+modified = "📝 ×${count} "
+staged = "🗃️  ×${count} "
+renamed = "📛 ×${count} "
+deleted = "🗑️  ×${count} "
+style = "bright-white"
+format = "$all_status$ahead_behind"
+
+[memory_usage]
+format = "$symbol[${ram}( | ${swap})]($style) "
+threshold = 70
+style = "bold dimmed white"
+disabled = false
+
+[rust]
+format = "[$symbol$version]($style) "
+style = "bold green"
+
+[time]
+time_format = "%T"
+format = "🕙 $time($style) "
+style = "bright-white"
+disabled = false
+

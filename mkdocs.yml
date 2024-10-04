@@ -23,9 +23,11 @@ theme:
   features:
   - content.code.copy
   - content.code.select
+  - navigation.expand
   - navigation.footer
   - navigation.indexes
   - navigation.path
+  - navigation.sections
   - navigation.tabs
   - navigation.tabs.sticky
   - navigation.top
@@ -35,8 +37,15 @@ theme:
 
 nav:
   - point-zero-one: index.md
-  - Random Notes: notes/index.md
-  - My Stuff: my-stuff/index.md
+  - Notes to self:
+    - notes/index.md
+    - Coding practices:
+      - notes/obfuscated-methods.md
+    - Web Development:
+      - notes/nanodjango.md
+  - My Stuff:
+    - my-stuff/index.md
+    - Terminal setup: my-stuff/terminal.md
 
 markdown_extensions:
   # Python Markdown

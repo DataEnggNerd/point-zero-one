@@ -43,6 +43,8 @@ nav:
       - notes/obfuscated-methods.md
     - Web Development:
       - notes/nanodjango.md
+    - Python:
+      - notes/metaclasses.md
   - My Stuff:
     - my-stuff/index.md
     - Terminal setup: my-stuff/terminal.md

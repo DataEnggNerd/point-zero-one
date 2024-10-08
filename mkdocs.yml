@@ -45,6 +45,8 @@ nav:
       - notes/nanodjango.md
     - Python:
       - notes/metaclasses.md
+    - Data:
+      - notes/data-modelling.md
   - My Stuff:
     - my-stuff/index.md
     - Terminal setup: my-stuff/terminal.md
@@ -81,3 +83,8 @@ markdown_extensions:
   - pymdownx.tasklist:
       custom_checkbox: true
   - pymdownx.tilde
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format

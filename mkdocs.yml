@@ -7,6 +7,7 @@ theme:
   name: material
   icon:
     repo: fontawesome/brands/github
+    annotation: material/star-four-points-circle
   palette:
   - scheme: default
     toggle:
@@ -49,6 +50,7 @@ nav:
       - notes/data-modelling.md
   - My Stuff:
     - my-stuff/index.md
+    - Resume: my-stuff/resume.md
     - Terminal setup: my-stuff/terminal.md
 
 markdown_extensions:

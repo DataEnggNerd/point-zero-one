@@ -48,6 +48,10 @@ nav:
       - notes/metaclasses.md
     - Data:
       - notes/data-modelling.md
+    # - System Design:
+    #   - Byte Byte go notes:
+    #     - scale-to-million-users: notes/byte-byte-go/01-scale-to-million-users.md
+    #     - envelope-estimation: notes/byte-byte-go/02-back-of-the-envolepe-estimation.md
   - My Stuff:
     - my-stuff/index.md
     - Resume: my-stuff/resume.md
